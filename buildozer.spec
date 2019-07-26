@@ -16,7 +16,7 @@ android.api = 19
 android.minapi = 13
 android.sdk = 23
 #private = False
-android.ndk_path = /home/kivy/Android/crystax-ndk-10.3.2/
+#android.ndk_path = /home/kivy/Android/crystax-ndk-10.3.2/
 android.arch = armeabi-v7a
 p4a.source_dir = /home/kivy/Repos/python-for-android/
 [buildozer]
