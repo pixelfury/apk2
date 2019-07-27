@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 26 19:36:48 2019
-
-@author: Z
-"""
-
 import datetime
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
