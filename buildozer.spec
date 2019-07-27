@@ -1,11 +1,11 @@
 [app]
-title = Foxxy
-package.name = foxxyapp
-package.domain = com.foxxyapp
+title = Foxxxy
+package.name = foxxxyapp
+package.domain = com.foxxxyapp
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,ttf,json
-version = 0.1
-#requirements = kivy==master,python3crystax==3.5
+version = 1.0
+requirements = kivy,python3
 orientation = all
 osx.python_version = 3
 osx.kivy_version = 1.9.1
@@ -20,5 +20,5 @@ fullscreen = 0
 #android.arch = armeabi-v7a
 #p4a.source_dir = /home/kivy/Repos/python-for-android/
 [buildozer]
-log_level = 2
+log_level = 1
 warn_on_root = 1
