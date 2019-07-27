@@ -18,7 +18,7 @@ fullscreen = 0
 #private = False
 #android.ndk_path = /home/kivy/Android/crystax-ndk-10.3.2/
 #android.arch = armeabi-v7a
-p4a.source_dir = /home/kivy/Repos/python-for-android/
+#p4a.source_dir = /home/kivy/Repos/python-for-android/
 [buildozer]
 log_level = 2
 warn_on_root = 1
