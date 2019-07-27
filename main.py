@@ -35,9 +35,9 @@ def Text(time, dic, dic2):
             text = str(time) +" " + str(dic[int(str(time)[-1])])
     return text
 
-class FoxxyApp(BoxLayout):
+class Foxxxy(BoxLayout):
     def __init__(self, **kwargs):
-        super(FoxxyApp, self).__init__(**kwargs)
+        super(Foxxxy, self).__init__(**kwargs)
         self.orientation="vertical"
         self.add_widget(Label(text='Души лисички и пацана из Москвы соеденились:'))
         self.add_widget(Label(text=str(aa), color=[1, 255, 0, 1]))
@@ -51,7 +51,7 @@ class FoxxyApp(BoxLayout):
 
 class FoxxxyApp(App):
     def build(self):
-        return FoxxyApp()
+        return Foxxxy()
 
 if __name__ == '__main__':
    FoxxxyApp().run()
